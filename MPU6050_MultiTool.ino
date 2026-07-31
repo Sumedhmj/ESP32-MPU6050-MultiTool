@@ -198,7 +198,7 @@ void drawBUBBLE_SCR(){
     display.drawLine(64,29,64,35,WHITE);
     display.drawLine(61,32,67,32,WHITE);
     int bubbleX = map(accel.acceleration.y,-10,10,36,92);
-    int bubbleY = map(accel.acceleration.z,-10,10,60,4);
+    int bubbleY = map(accel.acceleration.z,-8,11,60,4);
     display.fillCircle(bubbleX,bubbleY,3, WHITE);
 }
 
